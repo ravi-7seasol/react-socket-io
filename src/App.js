@@ -7,7 +7,7 @@ import Chat from "./Chat";
 
 
 function App() {
-  const socket = io.connect("https://node-socket-io.vercel.app")
+  const socket = io.connect("https://node-socket-io.vercel.app/")
   // const socket = io.connect("http://localhost:5000/")
 
   // const socket = io("https://node-socket-io.vercel.app", {
