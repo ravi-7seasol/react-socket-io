@@ -1,6 +1,6 @@
 import { useState } from "react";
 import './App.css';
-import io from "socket.io-client"
+import { io } from "socket.io-client"
 import Chat from "./Chat";
 
 const socket = io.connect("https://node-socket-io.vercel.app")
