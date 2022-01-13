@@ -3,11 +3,9 @@ import './App.css';
 import { io } from "socket.io-client"
 import Chat from "./Chat";
 
-
-
+const socket = io.connect("https://node-socket-io.vercel.app/")
 
 function App() {
-  const socket = io.connect("https://node-socket-io.vercel.app/")
   // const socket = io.connect("http://localhost:5000/")
 
   // const socket = io("https://node-socket-io.vercel.app", {
